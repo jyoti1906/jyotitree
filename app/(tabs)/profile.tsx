@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Edit, Trash2, Settings, Award, Calendar, Clock, Target } from 'lucide-react-native';
+import { CreditCard as Edit, Trash2, Settings, Award, Calendar, Clock, Target } from 'lucide-react-native';
 import { HabitForm } from '@/components/HabitForm';
 import { useHabits } from '@/hooks/useHabits';
 import { Habit } from '@/types/habit';
