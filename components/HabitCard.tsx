@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Play, Edit, Trash2 } from 'lucide-react-native';
+import { Play, CreditCard as Edit, Trash2 } from 'lucide-react-native';
 import { Habit } from '@/types/habit';
 
 interface HabitCardProps {
